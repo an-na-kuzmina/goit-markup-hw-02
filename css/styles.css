@@ -2,13 +2,27 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: #fff;
-  color: #2a2a2a;
+  color: #757575;
 }
+
+.header{
+  background-color: #fff;
+}
+
 .nav-link {
   color: #212121;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
 }
 
 .nav-link:hover,
-.nav-link:focus  {
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus  
+{
    color: #2196F3;
 }
