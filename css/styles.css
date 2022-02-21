@@ -1,11 +1,9 @@
-
 :root {
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
   --main-color: #757575;
   --dark-color: #212121;
   --white-color: #fff;
-  --hero-footer-color:#2F303A;
-}
+  --hero-footer-color: #2f303a;
 }
 
 body {
@@ -18,6 +16,9 @@ body {
   list-style: none;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 .logo {
   font-family: 'Releway', sans-serif;
@@ -35,39 +36,44 @@ body {
 }
 
 .nav-link {
-color: var(--dark-color);
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  color: var(--dark-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.contact-link{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-color);
+.contact-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.nav-link.action-link {
+  color: var(--accent-color);
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .contact-link:hover,
-.contact-link:focus  
-{
-   color: var(--accent-color);
+.contact-link:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
-.hero{
-background-color: var(--hero-footer-color);
-
+.hero {
+  background-color: var(--hero-footer-color);
 }
 
-.hero-title{
+.hero-title {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -77,131 +83,136 @@ background-color: var(--hero-footer-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  
 }
 
-.btn-order{
+.btn-order {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 187;
+  line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
-.feature-title{
-font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--dark-color);
+.btn-order:hover,
+.btn-order:focus {
+  background-color: #188ce8;
 }
 
-.feature-text{
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--main-color)
+.feature-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-color);
 }
 
-
-.about-us-title{
-font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--dark-color);
-
+.feature-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
 }
 
-.team{
-background-color: #f5f4fa;
+.about-us-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
 }
 
-.team-title{
-font-family: Roboto;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--dark-color);
+.team {
+  background-color: #f5f4fa;
 }
 
-.card-item{
-background: var(--white-color);
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+.team-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
 }
 
-.staff-title
-{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--dark-color)
+.card-item {
+  background: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.staff-text{
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-color)
+.staff-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
 }
 
-.footer{
-background-color: var(--hero-footer-color);
+.staff-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
 }
 
-.footer-logo{
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--dark-color)
+.footer {
+  background-color: var(--hero-footer-color);
 }
 
-.footer-address-link{
-color: var(--white-color);
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 
-.footer-contact-link{
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+.footer-address-link {
+  color: var(--white-color);
+}
+
+.footer-contact-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contact-link:hover,
-.footer-contact-link:focus,
-{
-   color: var(--accent-color);
+.footer-contact-link:focus {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
