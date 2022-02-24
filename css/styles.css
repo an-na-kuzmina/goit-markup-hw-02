@@ -26,7 +26,6 @@ body {
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
   color: var(--dark-color);
   font-weight: 700;
   font-size: 26px;
@@ -235,6 +234,7 @@ body {
 
 .footer-contact-link {
   font-weight: 400;
+  font-style: normal;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
@@ -244,6 +244,7 @@ body {
 
 .footer-address-link {
   color: var(--white-color);
+  font-style: normal;
 }
 
 .footer-contact-link:hover,
